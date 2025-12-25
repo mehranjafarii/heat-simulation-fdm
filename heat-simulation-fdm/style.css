@@ -1,0 +1,39 @@
+:root{
+  --bg:#070b18;
+  --border:rgba(140,170,255,.22);
+  --muted:rgba(233,237,255,.75);
+  --pill:rgba(10,16,40,.62);
+}
+body{
+  background: radial-gradient(1200px 700px at 20% 0%, rgba(110,160,255,.22), transparent 60%) var(--bg);
+  color:#e9edff;
+}
+.glass{
+  background: linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,.02));
+  border:1px solid var(--border);
+  border-radius:18px;
+  backdrop-filter: blur(7px);
+}
+.pill{
+  background: var(--pill);
+  border:1px solid var(--border);
+  border-radius:16px;
+}
+.muted{ color:var(--muted); }
+.small-note{ font-size:12px; }
+.mono{
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas;
+  font-size:12px; white-space:pre-wrap;
+}
+.plotbox{ height: 470px; width:100%; }
+.plotbox2{ height: 320px; width:100%; }
+.btn-grad{
+  background: linear-gradient(90deg, #6ea0ff, #9f7bff);
+  border:none; color:#08102a; font-weight:900;
+}
+.badge-soft{
+  border:1px solid var(--border);
+  background: rgba(10,16,40,.55);
+  color: rgba(233,237,255,.85);
+}
+input[type="range"]{ width:100%; }
